@@ -2,7 +2,7 @@
 
 Proyek ini adalah implementasi sistem pemantauan integritas file sederhana yang dibangun menggunakan Python. Sistem ini dirancang untuk memantau folder tertentu, mendeteksi perubahan yang tidak sah (modifikasi, penambahan, atau penghapusan file), mencatat semua aktivitas, dan menyajikan laporan melalui antarmuka web yang dinamis menggunakan Flask.
 
-## Tim Pengembang
+## Anggota Kelompok
 
 | Nama Lengkap                        | NRP        |
 | ----------------------------------- | ---------- |
