@@ -1,0 +1,1 @@
+catatan penting versi 2.

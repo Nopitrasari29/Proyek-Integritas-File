@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Lingkungan Virtual
+venv/
+env/
+
+# File Database dan Log (Opsional, tapi direkomendasikan jika sensitif)
+# Jika Anda ingin menyertakan log sebagai contoh, hapus baris di bawah
+# hash_db.json
+# security.log
