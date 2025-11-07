@@ -1,8 +1,10 @@
-# Proyek Sistem Deteksi Integritas File
+# Dashboard Monitoring Keamanan File
 
-Proyek ini adalah implementasi sistem pemantauan integritas file sederhana yang dibangun menggunakan Python. Sistem ini dirancang untuk memantau folder tertentu, mendeteksi perubahan yang tidak sah (modifikasi, penambahan, atau penghapusan file), mencatat semua aktivitas, dan menyajikan laporan melalui antarmuka web yang dinamis menggunakan Flask.
+Selamat datang di Proyek Sistem Deteksi Integritas File! Ini adalah sebuah aplikasi keamanan berbasis web yang dirancang untuk memantau file dan folder penting secara *real-time*. Sistem ini secara otomatis mendeteksi perubahan yang tidak sah, mencatat setiap aktivitas, dan menyajikan laporan visual melalui dashboard interaktif yang modern.
 
-## Anggota Kelompok
+Dibangun dengan Python dan Flask, proyek ini melampaui pemantauan dasar dengan menyediakan fitur dinamis untuk membuat dan mendaftarkan aset digital baru yang perlu dilindungi langsung dari antarmuka web.
+
+## Tim Pengembang
 
 | Nama Lengkap                        | NRP        |
 | ----------------------------------- | ---------- |
@@ -11,94 +13,88 @@ Proyek ini adalah implementasi sistem pemantauan integritas file sederhana yang 
 | Rafika Az Zahra Kusumastuti         | 5027231050 |
 | Nisrina Atiqah Dwi Putri Ridzki     | 5027231075 |
 
-## Fitur Utama
+---
 
--   **Pemantauan Folder**: Secara aktif memantau folder `./secure_files/` untuk setiap perubahan.
--   **Verifikasi Integritas**: Menggunakan hash SHA-256 untuk membuat *baseline* dan memverifikasi integritas file.
--   **Logging Komprehensif**: Semua aktivitas, baik normal (`INFO`) maupun mencurigakan (`WARNING`), dicatat ke dalam file `security.log` dengan format yang jelas (timestamp, level, pesan).
--   **Dasbor Web Dinamis**: Menyajikan laporan ringkas dan detail log melalui antarmuka web yang dibangun dengan Flask, menampilkan status keamanan sistem secara *real-time*.
--   **Simulasi Laporan**: Script tambahan untuk menampilkan ringkasan laporan langsung di terminal.
+## Fitur Unggulan
+
+-   **Dashboard Real-time**: Memantau status keamanan file tanpa perlu me-refresh halaman. Setiap anomali akan langsung memperbarui tampilan.
+-   **Monitoring Otomatis**: Menggunakan `watchdog` untuk mendeteksi perubahan file secara instan di latar belakang.
+-   **Dukungan Aset Fleksibel**: Mampu memantau folder beserta seluruh isinya (termasuk sub-folder) dan file tunggal secara spesifik.
+-   **Klasifikasi Anomali Detail**: Membedakan dengan jelas antara file yang **diubah (rusak)**, file yang **dihapus**, dan file **baru** yang tidak dikenal.
+-   **Manajemen Aset via Web**:
+    -   **Buat Aset Baru**: Membuat folder atau file baru langsung dari dashboard.
+    -   **Daftarkan Aset yang Ada**: Menambahkan folder atau file yang sudah ada ke dalam daftar pantauan.
+-   **Logging Komprehensif**: Semua aktivitas tercatat secara permanen di `security.log` untuk keperluan audit dan analisis.
 
 ## Teknologi yang Digunakan
 
 -   **Python**: Bahasa pemrograman utama.
--   **Flask**: Kerangka kerja web mikro untuk membangun dasbor laporan.
--   **HTML/CSS**: Untuk struktur dan gaya antarmuka web.
-
-## Struktur Proyek
-
-```
-proyek-integritas-file/
-├── secure_files/          # Folder yang dipantau
-├── app.py                 # Aplikasi web Flask untuk dasbor
-├── create_baseline.py     # Script untuk membuat hash awal (baseline)
-├── monitor.py             # Script utama untuk memantau folder
-├── report.py              # Script untuk menampilkan laporan di terminal
-├── hash_db.json           # (dibuat otomatis) Database baseline hash
-├── security.log           # (dibuat otomatis) File log aktivitas
-└── README.md              # Dokumentasi proyek
-```
-
-## Cara Menjalankan Proyek
-
-### 1. Persiapan Lingkungan
-
--   Pastikan Anda sudah menginstal Python di sistem Anda.
--   Buka terminal atau command prompt, arahkan ke folder proyek.
--   Instal dependensi yang diperlukan (Flask):
-    ```bash
-    pip install Flask
-    ```
-
-### 2. Alur Penggunaan
-
-Proyek ini dijalankan melalui serangkaian skrip di terminal.
-
-**Langkah A: Membuat Baseline Awal**
-Jalankan skrip ini sekali di awal untuk mencatat kondisi "aman" dari file di dalam `secure_files`.
-
-```bash
-python create_baseline.py
-```
-
-**Langkah B: Simulasikan Perubahan**
-Ubah file secara manual di dalam folder `secure_files`. Anda bisa:
--   Mengedit isi file.
--   Menghapus file.
--   Menambahkan file baru.
-
-**Langkah C: Jalankan Monitor**
-Jalankan skrip monitor untuk mendeteksi perubahan yang Anda buat. Semua temuan akan dicatat di `security.log`.
-
-```bash
-python monitor.py
-```
-
-**Langkah D: Lihat Laporan**
-Anda bisa melihat laporan melalui dua cara:
-
-1.  **Melalui Terminal**:
-    ```bash
-    python report.py
-    ```
-
-2.  **Melalui Dasbor Web (Direkomendasikan)**:
-    ```bash
-    python app.py
-    ```
-    Setelah server berjalan, buka browser dan akses alamat `http://127.0.0.1:5000`.
-
-## Tampilan Dasbor
-
-Berikut adalah tampilan dasbor saat mendeteksi anomali dan saat sistem dalam kondisi aman.
-
-**Kondisi Waspada (Anomali Terdeteksi)**
-
-<img width="465" height="441" alt="Screenshot 2025-11-03 080103" src="https://github.com/user-attachments/assets/56b3a5f2-8895-4208-a343-6eadda83a88b" />
-
-
-**Kondisi Aman (Semua File Terverifikasi)**
-
-<img width="466" height="398" alt="Screenshot 2025-11-03 075849" src="https://github.com/user-attachments/assets/8d93cdda-82a3-49db-9d17-a93fe89f8085" />
+-   **Flask**: Kerangka kerja web untuk membangun dashboard dan API.
+-   **Watchdog**: Library Python untuk memantau perubahan file sistem secara efisien.
+-   **Server-Sent Events (SSE)**: Teknologi untuk mendorong pembaruan data dari server ke browser secara *real-time*.
+-   **HTML, CSS, JavaScript**: Untuk membangun antarmuka pengguna yang interaktif dan responsif.
 
 ---
+
+## Alur Kerja Sistem (Flow)
+
+Sistem ini memiliki alur kerja yang cerdas dan terintegrasi antara proses latar belakang (monitor) dan antarmuka pengguna (web).
+
+1.  **Inisialisasi**:
+    -   Saat `app.py` dijalankan, ia akan memulai dua *thread* utama:
+        1.  **Web Server (Flask)**: Menangani permintaan HTTP dan menyajikan dashboard.
+        2.  **File Monitor (Watchdog)**: Membaca `config.json` dan mulai mengawasi semua folder yang terdaftar di latar belakang.
+
+2.  **Deteksi Perubahan (Real-time)**:
+    -   Ketika pengguna mengubah, menghapus, atau membuat file di dalam folder yang dipantau, **Watchdog** akan langsung mendeteksi *event* tersebut.
+    -   Watchdog memicu fungsi `verify_integrity()` dari `integrity_checker.py`.
+
+3.  **Verifikasi & Logging**:
+    -   Fungsi `verify_integrity()` membandingkan *state* file saat ini dengan *baseline* di `hash_db.json`.
+    -   Hasilnya (file mana yang aman, diubah, dihapus, atau baru) dikembalikan.
+    -   Aplikasi kemudian mencatat semua anomali yang ditemukan ke dalam file `security.log` sebagai `WARNING`.
+
+4.  **Pembaruan ke Dashboard (Real-time Push)**:
+    -   Setelah selesai mencatat, aplikasi mengirimkan sinyal **"UPDATE"** sederhana ke *stream* SSE.
+    -   JavaScript di browser, yang selalu terhubung ke *stream* ini, menerima sinyal "UPDATE".
+    -   Setelah menerima sinyal, JavaScript segera membuat permintaan `fetch` ke endpoint `/get_latest_data` di server.
+    -   Server merespons dengan data JSON terbaru yang berisi ringkasan (jumlah file aman, rusak, dll.) dan daftar log lengkap.
+    -   JavaScript kemudian memperbarui angka di kartu ringkasan dan me-render ulang kotak log dengan data terbaru, semua **tanpa me-refresh halaman**.
+
+5.  **Interaksi Pengguna (Manajemen Aset)**:
+    -   Pengguna menggunakan form di web untuk membuat atau mendaftarkan aset baru.
+    -   Aplikasi Flask menerima permintaan ini, memodifikasi file sistem (`config.json`, membuat folder/file baru), dan memanggil `create_full_baseline()` untuk memperbarui `hash_db.json`.
+    -   Pengguna kemudian diinstruksikan untuk me-restart aplikasi agar **File Monitor (Watchdog)** dapat memuat konfigurasi baru dan mulai memantau aset yang baru ditambahkan.
+
+---
+
+## Panduan Penggunaan
+
+### 1. Persiapan
+
+-   Pastikan Anda sudah menginstal Python.
+-   Buka terminal di folder proyek dan instal semua dependensi:
+    ```bash
+    pip install Flask watchdog
+    ```
+
+### 2. Menjalankan Aplikasi
+
+Aplikasi ini sangat mudah dijalankan.
+
+```bash
+python app.py
+```
+Perintah ini akan secara otomatis:
+1.  Membuat `config.json` jika belum ada.
+2.  Memulai server web di `http://127.0.0.1:5000`.
+3.  Mengaktifkan monitor file otomatis di latar belakang.
+
+### 3. Langkah Awal: Mendaftarkan Aset Pertama
+
+Saat pertama kali menjalankan, belum ada yang dipantau.
+1.  Buka browser Anda ke `http://127.0.0.1:5000`.
+2.  Gunakan form **"Daftarkan Aset yang Sudah Ada"** untuk mendaftarkan folder pertama Anda (misalnya, `secure_files`).
+3.  Ikuti instruksi di layar untuk **me-restart aplikasi** (`Ctrl+C` di terminal, lalu jalankan `python app.py` lagi).
+
+Setelah restart, sistem Anda sudah aktif sepenuhnya dan siap digunakan!
