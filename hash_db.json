@@ -1,6 +1,16 @@
 {
-    "secure_files\\config.json": "9da09f07cd8cc873c869a78f8b86dbe6656db69f4b833a5fef1ee1fdc5c5d128",
-    "secure_files\\data.txt": "dac7b0114ed1bcb09451320c59d098c65b4af72e6972fb648fa570335ea09554",
-    "secure_files\\hacked.js": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "secure_files\\notes.md": "5d69e795389bba93b5e16101ce1cdfc4442defe27a4010e0769d629038476db2"
+    "secure_files/data.txt": "4c47835e2d4b459c8cfe756c0dde67182ebc088cce2514a0911223a0db4210fa",
+    "secure_files/hacked.js": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "secure_files/hum.txt": "96ee59df0b588d3d0c2402e6bf6f51403e94332a6da5924c3a087f92659aa44e",
+    "secure_files/notes.md": "6e1dbe4939fe6ac770a458d31e3a32c661214056a74255dbeea57c1d11a6aea2",
+    "secure_files/file_aman/aman.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "secure_files/sub_folder_1/file_rahasia.txt": "25219711b1c71a28ee5cb039f1bbff003005ef4196ada1998820fd4c598c88d9",
+    "secure_files/sub_folder_1/hihihi.txt": "2abbcd808a5389dd7160febb5439be1d6c9fe21423ffc7f3f7c80563a078546a",
+    "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt": "25219711b1c71a28ee5cb039f1bbff003005ef4196ada1998820fd4c598c88d9",
+    "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt": "2abbcd808a5389dd7160febb5439be1d6c9fe21423ffc7f3f7c80563a078546a",
+    "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt": "4c47835e2d4b459c8cfe756c0dde67182ebc088cce2514a0911223a0db4210fa",
+    "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hacked.js": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt": "96ee59df0b588d3d0c2402e6bf6f51403e94332a6da5924c3a087f92659aa44e",
+    "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/notes.md": "6e1dbe4939fe6ac770a458d31e3a32c661214056a74255dbeea57c1d11a6aea2",
+    "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/file_aman/aman.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 }

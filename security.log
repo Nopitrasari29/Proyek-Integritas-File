@@ -22,3 +22,373 @@
 [2025-11-03 07:59:47] WARNING: File "data.txt" integrity failed!
 [2025-11-03 07:59:47] INFO: File "hacked.js" verified OK.
 [2025-11-03 07:59:47] INFO: --- Pengecekan Integritas File Selesai ---
+[2025-11-06 11:14:56] INFO: --- Memulai Pengecekan Integritas File ---
+[2025-11-06 11:14:56] INFO: File "data.txt" verified OK.
+[2025-11-06 11:14:56] INFO: File "hacked.js" verified OK.
+[2025-11-06 11:14:56] INFO: File "notes.md" verified OK.
+[2025-11-06 11:14:56] INFO: File "config.json" verified OK.
+[2025-11-06 11:14:56] INFO: --- Pengecekan Integritas File Selesai ---
+[2025-11-07 15:03:04] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 15:05:49] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 15:08:21] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:08:21] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:08:21] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:08:22] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:08:22] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:08:22] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:09:00] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:09:00] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:09:00] WARNING: INTEGRITY FAILED: File "secure_files/sub_folder_1/file_rahasia.txt" telah diubah!
+[2025-11-07 15:09:00] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:09:01] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:09:01] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:09:01] WARNING: INTEGRITY FAILED: File "secure_files/sub_folder_1/file_rahasia.txt" telah diubah!
+[2025-11-07 15:09:01] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:12:42] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 15:14:45] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 15:14:45] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 15:14:58] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 15:14:58] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 15:16:14] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:16:14] WARNING: NEW FILE: File baru yang tidak dikenal "secure_files/arsip.txt" terdeteksi!
+[2025-11-07 15:16:14] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:16:56] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 15:16:56] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 15:16:56] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files
+[2025-11-07 15:17:12] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:17:12] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:17:12] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:17:12] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:17:13] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:17:13] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:17:13] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:17:13] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:17:31] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:17:31] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:17:31] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:17:31] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:17:32] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:17:32] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:17:32] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:17:32] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:17:33] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:17:33] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:17:33] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:17:33] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:17:34] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:17:34] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:17:34] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:17:34] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:17:47] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:17:47] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:17:47] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:17:47] WARNING: NEW FILE: File baru yang tidak dikenal "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" terdeteksi!
+[2025-11-07 15:17:47] WARNING: NEW FILE: File baru yang tidak dikenal "secure_files/hum.txt" terdeteksi!
+[2025-11-07 15:17:47] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:17:48] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:17:48] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:17:48] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:17:48] WARNING: NEW FILE: File baru yang tidak dikenal "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" terdeteksi!
+[2025-11-07 15:17:48] WARNING: NEW FILE: File baru yang tidak dikenal "secure_files/hum.txt" terdeteksi!
+[2025-11-07 15:17:48] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:19:24] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:19:24] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:19:24] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:19:24] WARNING: NEW FILE: File baru yang tidak dikenal "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/yeyyy.md" terdeteksi!
+[2025-11-07 15:19:24] WARNING: NEW FILE: File baru yang tidak dikenal "secure_files/yeyyy.md" terdeteksi!
+[2025-11-07 15:19:24] WARNING: NEW FILE: File baru yang tidak dikenal "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" terdeteksi!
+[2025-11-07 15:19:24] WARNING: NEW FILE: File baru yang tidak dikenal "secure_files/hum.txt" terdeteksi!
+[2025-11-07 15:19:24] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:19:25] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:19:25] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/data.txt" telah diubah!
+[2025-11-07 15:19:25] WARNING: INTEGRITY FAILED: File "secure_files/data.txt" telah diubah!
+[2025-11-07 15:19:25] WARNING: NEW FILE: File baru yang tidak dikenal "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/yeyyy.md" terdeteksi!
+[2025-11-07 15:19:25] WARNING: NEW FILE: File baru yang tidak dikenal "secure_files/yeyyy.md" terdeteksi!
+[2025-11-07 15:19:25] WARNING: NEW FILE: File baru yang tidak dikenal "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" terdeteksi!
+[2025-11-07 15:19:25] WARNING: NEW FILE: File baru yang tidak dikenal "secure_files/hum.txt" terdeteksi!
+[2025-11-07 15:19:25] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:20:58] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 15:20:58] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 15:20:58] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files
+[2025-11-07 15:21:14] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:21:14] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:21:14] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:21:14] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:21:15] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:21:15] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:21:15] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:21:15] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:21:16] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:21:16] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:21:16] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:21:16] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:21:17] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:21:17] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:21:17] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:21:17] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:21:43] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:21:43] WARNING: INTEGRITY FAILED: File "secure_files/notes.md" telah diubah!
+[2025-11-07 15:21:43] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:21:43] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:21:43] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/notes.md" telah diubah!
+[2025-11-07 15:21:43] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:21:44] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:21:44] WARNING: INTEGRITY FAILED: File "secure_files/notes.md" telah diubah!
+[2025-11-07 15:21:44] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:21:44] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:21:44] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/notes.md" telah diubah!
+[2025-11-07 15:21:44] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:21:45] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:21:45] WARNING: INTEGRITY FAILED: File "secure_files/notes.md" telah diubah!
+[2025-11-07 15:21:45] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:21:45] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:21:45] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/notes.md" telah diubah!
+[2025-11-07 15:21:45] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:21:46] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:21:46] WARNING: INTEGRITY FAILED: File "secure_files/notes.md" telah diubah!
+[2025-11-07 15:21:46] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:21:46] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:21:46] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/notes.md" telah diubah!
+[2025-11-07 15:21:46] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:22:57] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:22:57] WARNING: INTEGRITY FAILED: File "secure_files/notes.md" telah diubah!
+[2025-11-07 15:22:57] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:22:57] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:22:57] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/notes.md" telah diubah!
+[2025-11-07 15:22:57] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/yeyyy.md" telah dihapus!
+[2025-11-07 15:22:57] WARNING: DELETED: File "secure_files/yeyyy.md" telah dihapus!
+[2025-11-07 15:22:57] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 15:22:58] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 15:22:58] WARNING: INTEGRITY FAILED: File "secure_files/notes.md" telah diubah!
+[2025-11-07 15:22:58] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hum.txt" telah diubah!
+[2025-11-07 15:22:58] WARNING: INTEGRITY FAILED: File "secure_files/hum.txt" telah diubah!
+[2025-11-07 15:22:58] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/notes.md" telah diubah!
+[2025-11-07 15:22:58] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/yeyyy.md" telah dihapus!
+[2025-11-07 15:22:58] WARNING: DELETED: File "secure_files/yeyyy.md" telah dihapus!
+[2025-11-07 15:22:58] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:05:19] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 19:05:19] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 19:05:19] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files
+[2025-11-07 19:05:32] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:05:32] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:32] WARNING: DELETED: File "secure_files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:32] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:05:33] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:05:33] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:33] WARNING: DELETED: File "secure_files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:33] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:05:47] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:05:47] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hacked.js" telah diubah!
+[2025-11-07 19:05:47] WARNING: INTEGRITY FAILED: File "secure_files/hacked.js" telah diubah!
+[2025-11-07 19:05:47] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:47] WARNING: DELETED: File "secure_files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:47] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:05:48] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:05:48] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hacked.js" telah diubah!
+[2025-11-07 19:05:48] WARNING: INTEGRITY FAILED: File "secure_files/hacked.js" telah diubah!
+[2025-11-07 19:05:48] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:48] WARNING: DELETED: File "secure_files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:48] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:05:49] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:05:49] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hacked.js" telah diubah!
+[2025-11-07 19:05:49] WARNING: INTEGRITY FAILED: File "secure_files/hacked.js" telah diubah!
+[2025-11-07 19:05:49] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:49] WARNING: DELETED: File "secure_files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:49] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:05:50] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:05:51] WARNING: INTEGRITY FAILED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/hacked.js" telah diubah!
+[2025-11-07 19:05:51] WARNING: INTEGRITY FAILED: File "secure_files/hacked.js" telah diubah!
+[2025-11-07 19:05:51] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:51] WARNING: DELETED: File "secure_files/arsip.txt" telah dihapus!
+[2025-11-07 19:05:51] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:06:02] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:06:02] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/arsip.txt" telah dihapus!
+[2025-11-07 19:06:02] WARNING: DELETED: File "secure_files/arsip.txt" telah dihapus!
+[2025-11-07 19:06:02] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:06:03] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:06:03] WARNING: DELETED: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/arsip.txt" telah dihapus!
+[2025-11-07 19:06:03] WARNING: DELETED: File "secure_files/arsip.txt" telah dihapus!
+[2025-11-07 19:06:03] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:17:07] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 19:17:07] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 19:17:07] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files
+[2025-11-07 19:17:44] INFO: Memulai pemantauan otomatis untuk folder: secure_files
+[2025-11-07 19:17:44] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 19:17:44] INFO: Memulai pemantauan otomatis untuk folder: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files
+[2025-11-07 19:17:44] INFO: Memulai pemantauan otomatis untuk folder: arsip_penting
+[2025-11-07 19:18:00] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:18:00] WARNING: NEW FILE: File baru yang tidak dikenal "arsip_penting/HALO.MD" terdeteksi!
+[2025-11-07 19:18:00] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:18:09] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:18:09] WARNING: NEW FILE: File baru yang tidak dikenal "arsip_penting/HALO.MD" terdeteksi!
+[2025-11-07 19:18:09] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:18:10] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:18:10] WARNING: NEW FILE: File baru yang tidak dikenal "arsip_penting/HALO.MD" terdeteksi!
+[2025-11-07 19:18:10] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:18:29] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:18:29] WARNING: INTEGRITY FAILED: File "arsip_penting/HALO.MD" telah diubah!
+[2025-11-07 19:18:29] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:18:31] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:18:31] WARNING: INTEGRITY FAILED: File "arsip_penting/HALO.MD" telah diubah!
+[2025-11-07 19:18:31] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:18:44] INFO: --- Memulai Pengecekan Integritas Otomatis ---
+[2025-11-07 19:18:44] WARNING: DELETED: File "arsip_penting/HALO.MD" telah dihapus!
+[2025-11-07 19:18:44] INFO: --- Pengecekan Integritas Selesai ---
+[2025-11-07 19:30:52] INFO: Memulai pemantauan untuk: secure_files
+[2025-11-07 19:30:52] INFO: Memulai pemantauan untuk: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 19:30:52] INFO: Memulai pemantauan untuk: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files
+[2025-11-07 19:30:52] INFO: Memulai pemantauan untuk: arsip_penting
+[2025-11-07 19:31:54] INFO: Memulai pemantauan untuk: secure_files
+[2025-11-07 19:31:54] INFO: Memulai pemantauan untuk: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 19:31:54] INFO: Memulai pemantauan untuk: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files
+[2025-11-07 19:31:54] INFO: Memulai pemantauan untuk: arsip_penting
+[2025-11-07 19:32:06] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:06] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:06] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:06] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:07] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:07] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:07] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:07] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:08] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:08] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:08] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:08] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:09] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:09] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:09] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:09] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:10] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:10] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:10] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:10] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:11] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:11] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:11] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:11] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:25] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:25] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:25] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:25] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:25] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:25] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:26] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:26] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:26] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:26] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:26] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:26] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:27] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:27] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:27] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:27] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:27] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:27] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:28] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:28] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:28] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:28] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:28] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:28] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:29] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:29] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:29] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:29] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:29] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:29] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:33] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:33] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:33] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:33] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:33] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:33] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:34] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:34] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:34] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:34] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:34] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:34] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:35] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:35] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:35] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:35] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:35] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:35] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:36] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:36] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:36] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:36] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:36] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:36] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:37] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:37] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:37] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:37] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:37] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:37] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:47] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:47] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:47] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:47] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:47] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:47] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:48] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:48] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:48] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:48] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:48] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:48] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:49] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:49] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:49] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:49] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:49] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:49] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:50] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:50] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:50] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:50] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:50] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:50] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:51] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:51] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:51] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:51] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:51] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:51] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:32:52] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:32:52] WARNING: DIUBAH: File "secure_files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:52] WARNING: DIUBAH: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/file_rahasia.txt"
+[2025-11-07 19:32:52] WARNING: BARU: File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:52] WARNING: BARU: File "secure_files/sub_folder_1/hihihi.txt"
+[2025-11-07 19:32:52] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:39:29] INFO: Memulai pemantauan untuk: secure_files
+[2025-11-07 19:39:29] INFO: Memulai pemantauan untuk: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 19:39:29] INFO: Memulai pemantauan untuk: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files
+[2025-11-07 19:39:29] INFO: Memulai pemantauan untuk: arsip_penting
+[2025-11-07 19:40:24] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:40:24] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:40:25] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:40:25] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:40:27] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:40:27] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:41:38] INFO: Memulai pemantauan untuk: secure_files
+[2025-11-07 19:41:38] INFO: Memulai pemantauan untuk: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1
+[2025-11-07 19:41:38] INFO: Memulai pemantauan untuk: D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files
+[2025-11-07 19:41:38] INFO: Memulai pemantauan untuk: arsip_penting
+[2025-11-07 19:41:58] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:41:58] WARNING: DIUBAH (RUSAK): File "secure_files/file_aman/aman.txt"
+[2025-11-07 19:41:58] WARNING: DIUBAH (RUSAK): File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/file_aman/aman.txt"
+[2025-11-07 19:41:58] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:41:59] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:41:59] WARNING: DIUBAH (RUSAK): File "secure_files/file_aman/aman.txt"
+[2025-11-07 19:41:59] WARNING: DIUBAH (RUSAK): File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/file_aman/aman.txt"
+[2025-11-07 19:41:59] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:42:00] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:42:00] WARNING: DIUBAH (RUSAK): File "secure_files/file_aman/aman.txt"
+[2025-11-07 19:42:00] WARNING: DIUBAH (RUSAK): File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/file_aman/aman.txt"
+[2025-11-07 19:42:00] INFO: --- Pengecekan Selesai ---
+[2025-11-07 19:42:01] INFO: --- Memulai Pengecekan Integritas ---
+[2025-11-07 19:42:01] WARNING: DIUBAH (RUSAK): File "secure_files/file_aman/aman.txt"
+[2025-11-07 19:42:01] WARNING: DIUBAH (RUSAK): File "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/file_aman/aman.txt"
+[2025-11-07 19:42:01] INFO: --- Pengecekan Selesai ---

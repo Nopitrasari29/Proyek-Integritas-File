@@ -1,1 +1,1 @@
-catatan penting versi 2.
+inii sangat penting bgtttt

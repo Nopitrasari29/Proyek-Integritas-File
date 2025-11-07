@@ -1,0 +1,11 @@
+{
+    "monitored_folders": [
+        "secure_files",
+        "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files/sub_folder_1",
+        "D:/SEMESTER 5/KWA/proyek-integritas-file/Secure_Files",
+        "arsip_penting"
+    ],
+    "monitored_files": [
+        "secure_files/file_aman/aman.txt"
+    ]
+}
